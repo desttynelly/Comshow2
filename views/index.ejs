@@ -13,7 +13,41 @@
     
 
     
-    <%- include('_header') %>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/images/Golden pass logo.png" alt="">
+        </div>
+    
+        <div class="ham">
+            <img id="open" src="/images/hamburger-svgrepo-com (1).png" alt="hamburger icon">
+            <img id="closee" src="/images/close-circle-svgrepo-com.png" alt="close icon">
+        </div>
+        
+        <div class="navlinks">
+            <ul>
+                <li><a href="/" target="">Home</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/about">About Us</a></li>
+            </ul>
+    
+            <% if (!isAuthenticated) { %>
+                <div class="two-btn" id="auth-buttons">
+                    <button class="signupb">Sign Up</button>
+                    <!-- <button class="loginb">Log In</button> -->
+                </div>
+            <% } else { %>
+                <!-- You can replace this with a "Profile" or "Logout" button if needed -->
+                <div class="two-btn">
+                    <form action="/CS/verify/logout" method="post">
+                        <button class="logoutb">Logout</button>
+                    </form>
+                </div>
+                
+                
+            <% } %>
+        </div>
+    </div>
 
     <div class="evert">
     <div class="hero">
@@ -128,9 +162,70 @@
 
 
 
-    <%- include('_footer') %>
+<div class="footer">
+
+    <div class="foot">
+    <div class="logo">
+        <img src="/images/Golden pass logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, velit similique! Tempore hic mollitia, repellat magni, laudantium modi facilis reprehenderit voluptate, delectus ipsa nemo? Recusandae ex ea aliquam a eius?</p>
+    </div>
+
+    <div class="Quick-Links">
+
+        <p>Quick Links</p>
+        <ul>
+             <li><a href="/">Home</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="/about">About Us</a></li>
+        </ul>
+       
+    </div>
+
+    <div class="services">
+        <p>Services</p>
+        <ul>
+        <li><a href="/events">Get Tickets</a></li>
+        <li><a href="/contact">Top Tickets</a></li>
+        <li><a href="/about">Shceduled Events</a></li> 
+        </ul>
+        
+    </div>
+
+    <div class="support">
+
+        <p class="suportheadp">Help & Support</p>
+    
+        <ul>
+            <li><a href="tel:07081355583">07081355583</a></li>
+            <li><a href="mailto:obhiosad@gmail.com">obhiosad@gmail.com</a></li>
+            <li><a href="/Terms">Terms and condition</a></li>
+        </ul>
+    </div>
+
+</div>
+    <br>
+
+    <hr>
+
+    <div class="social-links">
+        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-threads"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <div class="last">
+        <p>&copy; Copyright 2024, All Right Reserved <a href="">Destty Nelly</a></p>
+    </div>
+</div>
+
+<script src="/js/general.js"></script>
 
    
+
+    <script src="/server.js"></script>
     
 
 
