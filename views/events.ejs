@@ -1,0 +1,251 @@
+<%- include('_head') %>
+<link rel="stylesheet" href="/css/events.css">
+
+<body>
+    <%- include('_header') %>
+    
+
+
+    <div class="mininav">
+        <div class="nav">
+            <ul>
+                <li><a href="">Events</a></li>
+                <li><a href="">Upcoming Events</a></li>
+            </ul>
+        </div>
+
+        <div class="searchbar">
+            <form action="">
+                <input type="text" placeholder="Search Events" name="Search">
+                <span class="fa fa-search"></span>
+            </form>
+        </div>
+    </div>
+
+
+
+<div class="toposts">
+
+
+       <div class="mainpost">
+
+
+        <section class="d1">
+          <a href="/profile">
+            <img src="/images/pro.jpeg" alt="" class="proimg">
+            <p class="proname">Jude Mark</p>
+            </a>
+            <div class="stars interactive" data-rating="0">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+
+          
+              
+
+            <section class="info">
+                <img src="/images/001 1.jpg" alt="" class="infoi">
+
+                <p class="lheaddt">Davido 02 Arena Experience</p>
+
+                <p class="lboddyt">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, quam. Molestiae cupiditate inventore quaerat obcaecati asperiores nulla, modi assumenda sequi illum eaque fugit ullam. Magni facilis et quas porro quos.
+                </p>
+
+                <section class="btns">
+                    <button>Regular: $50</button>
+                    <button>Vip: $100</button>
+                    <button>Premuim: $200</button>
+                </section>
+            </section>
+        </section>
+
+        <section class="d1">
+          <a href="/profile">
+            <img src="/images/pro.jpeg" alt="" class="proimg">
+            <p class="proname">Jude Mark</p>
+            </a>
+            <div class="stars interactive" data-rating="0">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+
+          
+              
+
+            <section class="info">
+                <img src="/images/001 1.jpg" alt="" class="infoi">
+
+                <p class="lheaddt">Davido 02 Arena Experience</p>
+
+                <p class="lboddyt">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, quam. Molestiae cupiditate inventore quaerat obcaecati asperiores nulla, modi assumenda sequi illum eaque fugit ullam. Magni facilis et quas porro quos.
+                </p>
+
+                <section class="btns">
+                    <button>Regular: $50</button>
+                    <button>Vip: $100</button>
+                    <button>Premuim: $200</button>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    
+
+    <div class="adpost">
+          <section class="d2">
+
+            <img class="dimg" src="/images/burna 1.jpg" alt="">
+
+            <p class="lheadt">Rema Abuja Experience </p>
+
+            <ul>
+                <li>Days</li>
+                <li>Hours</li>
+                <li>Minutes</li>
+                <li>Seconds</li>
+            </ul>
+
+            <button>Get Ticket</button>
+          </section>
+
+          <section class="d2">
+
+            <img class="dimg" src="/images/burna 1.jpg" alt="">
+
+            <p class="lheadt">Rema Abuja Experience </p>
+
+            <ul>
+                <li>Days</li>
+                <li>Hours</li>
+                <li>Minutes</li>
+                <li>Seconds</li>
+            </ul>
+
+            <button>Get Ticket</button>
+          </section>
+
+          <section class="d2">
+
+            <img class="dimg" src="/images/burna 1.jpg" alt="">
+
+            <p class="lheadt">Rema Abuja Experience </p>
+
+            <ul>
+                <li>Days</li>
+                <li>Hours</li>
+                <li>Minutes</li>
+                <li>Seconds</li>
+            </ul>
+
+            <button>Get Ticket</button>
+          </section>
+
+          <section class="d2">
+
+            <img class="dimg" src="/images/burna 1.jpg" alt="">
+
+            <p class="lheadt">Rema Abuja Experience </p>
+
+            <ul>
+                <li>Days</li>
+                <li>Hours</li>
+                <li>Minutes</li>
+                <li>Seconds</li>
+            </ul>
+
+            <button>Get Ticket</button>
+          </section>
+    </div>
+</div>
+ 
+      
+
+
+
+    <%- include('_footer') %>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+  const starContainers = document.querySelectorAll(".stars.interactive");
+
+  starContainers.forEach((container, index) => {
+    const stars = container.querySelectorAll(".star");
+
+    // Load and apply saved rating from localStorage
+    const savedRating = localStorage.getItem(`rating-${index}`);
+    if (savedRating) {
+      container.setAttribute("data-rating", savedRating);
+      updateSelectedStars(container, savedRating);
+    }
+
+    stars.forEach(star => {
+      // Highlight stars on hover
+      star.addEventListener("mouseover", () => {
+        resetStars(container);
+        highlightStars(star);
+      });
+
+      // Set rating on click
+      star.addEventListener("click", () => {
+        const rating = star.getAttribute("data-value");
+        container.setAttribute("data-rating", rating);
+        localStorage.setItem(`rating-${index}`, rating); // Save rating to localStorage
+        updateSelectedStars(container, rating);
+      });
+    });
+
+    // Reset stars when mouse leaves
+    container.addEventListener("mouseleave", () => {
+      resetStars(container);
+      const rating = container.getAttribute("data-rating");
+      updateSelectedStars(container, rating);
+    });
+  });
+
+  // Helper: Highlight stars up to the hovered one
+  function highlightStars(star) {
+    star.style.color = "#ffcc00"; // Highlight this star
+    let prev = star.previousElementSibling;
+    while (prev) {
+      prev.style.color = "#ffcc00"; // Highlight previous stars
+      prev = prev.previousElementSibling;
+    }
+  }
+
+  // Helper: Reset all stars to default
+  function resetStars(container) {
+    const stars = container.querySelectorAll(".star");
+    stars.forEach(star => {
+      if (!star.classList.contains("selected")) {
+        star.style.color = "#ccc"; // Reset color for non-selected stars
+      }
+    });
+  }
+
+  // Helper: Update stars based on current rating
+  function updateSelectedStars(container, rating) {
+    const stars = container.querySelectorAll(".star");
+    stars.forEach(star => {
+      if (parseInt(star.getAttribute("data-value")) <= rating) {
+        star.style.color = "#ffcc00"; // Keep the selected stars highlighted
+        star.classList.add("selected");
+      } else {
+        star.style.color = "#ccc"; // Reset the rest
+        star.classList.remove("selected");
+      }
+    });
+  }
+});
+
+    </script>
+</body>
+</html>
+

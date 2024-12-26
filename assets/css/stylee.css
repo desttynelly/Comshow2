@@ -1,0 +1,3669 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --main: #d87093;
+    --blue: rgb(1, 117, 212);
+    --green: #ff9000;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--main);
+}
+.navbar{
+    margin-top: -150px;
+}
+
+
+.anime{
+    margin-left: -70px;
+    position: fixed;
+}
+.anime div{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #ff9000;
+}
+
+.goo1{
+    animation-name: goo1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo1{
+
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    50%{
+        border: 3px solid white;
+        margin-top: -80px;
+        margin-left: 800px;
+    }
+    100%{
+        margin-top: 30px;
+        margin-left: 1450px;
+    }
+}
+
+
+
+.goo2{
+    animation-name: goo2;
+    animation-delay: 3s;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo2{
+
+    0%{
+        /* border: 3px solid black; */
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+    100%{
+        margin-top: 300px;
+        margin-left: 1450px;
+    }
+}
+
+
+
+
+
+.goo3{
+    animation-name: goo3;
+    animation-delay: 3s;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo3{
+
+    0%{
+        margin-top: 10px;
+        margin-left: 1450px;
+    }
+    100%{
+        /* border: 3px solid black; */
+        margin-top: 300px;
+        margin-left: 0px;
+                
+    }
+}
+
+
+
+.goo4{
+    animation-name: goo4;
+    animation-delay: 6s;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+.gooo4{
+    animation-name: goo4;
+    animation-delay: 6s;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo4{
+
+    0%{
+        margin-top: 300px;
+        margin-left: 1450px;
+    }
+    100%{
+        border: 3px solid black;
+        margin-top: 0px;
+        margin-left: 0px;
+                
+    }
+}
+
+
+
+
+.goo5{
+    animation-name: goo5;
+    /* animation-delay: 2s; */
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.gooo1{
+    animation-name: goo3;
+    /* animation-delay: 2s; */
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo5{
+
+    0%{
+        margin-top: 500px;
+        margin-left: 150px;
+    }
+    100%{
+        border: 3px solid #5f1ec9;
+        margin-top: -300px;
+        margin-left: 400px;
+                
+    }
+}
+
+
+
+.all{
+    overflow: hidden;
+    height: 620px;
+}
+.all nav{
+    background: none;
+    margin-left: 100px;
+
+}
+.all nav .logo{
+    width: 600px;
+    transition: all 0.5s ease-in-out;
+    animation: come 0.5s 1;
+    overflow: hidden;
+}
+@keyframes come{
+
+    0%{
+        margin-left: -300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.all nav .logo p{
+    font-weight: 600;
+    font-size: 50px;
+    width: 600px;
+    height: 60px;
+}
+
+.all nav .nav-btn{
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+@keyframes come2{
+
+    0%{
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.all nav .nav-btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    animation: come2 0.5s 1;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--green);
+    transition: all 0.3s ease-in-out;
+}
+.all nav .nav-btn button:hover{
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes top{
+    0%{
+        margin-top: -100px;
+    }
+    100%{ 
+        margin-top: 30px;
+    }
+}
+
+
+.all .bod{
+    margin-top: 30px;
+    margin-left: 500px;
+    animation: top 0.5s 1;
+}
+.all .bod img{
+    width: 400px;
+    height: 300px;
+}
+.all .bod h1{
+    margin-left: 25px;
+    font-size: 60px;
+}
+.all .bod p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+.signup{
+    width: 400px;
+    margin-top: 200px;
+    padding-top: 100px;
+    margin-left: 500px;
+}
+@keyframes gb1{
+
+    0%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.signup .head{
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: -50px;
+}
+#login .head{
+    margin-left: 120px;
+}
+.signup p{
+    font-weight: 900px;
+    margin-left: 90px;
+    font-size: 30px;
+    animation: gb1 0.5s 1;
+}
+#login p{
+    margin-left: 40px;
+    font-size: 30px;
+    animation: gb1 0.5s 1;
+}
+.signup label{
+    font-size: 20px;
+    animation: come3 0.5s 1;
+}
+.signup input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    border: none;
+    animation: come3 0.5s 1;
+    font-family: "poppins", sans-serif;
+}
+
+@keyframes come3{
+
+    0%{
+        margin-left: -200px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.signup .backimg{
+    background-color: red;
+}
+.signup #arrow{
+    width: 30px;
+    margin-left: -100px;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 5px;
+    border-radius: 20px;
+    position: fixed;
+    transform: translateY(-30px);
+    cursor: pointer;
+    animation: come4 0.5s 1;
+}
+@keyframes come4{
+
+    0%{
+        margin-left: -300px;
+    }
+    100%{
+        margin-left: -100px;
+    }
+}
+
+.signup button{
+    font-family: "poppins", sans-serif;
+    width: 315px;
+    height: 40px;
+    background-color: var(--green);
+    border: none;
+    font-size: 13px;
+    /* margin-left: -50px; */
+    /* transform: translateX(-50px); */
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    animation: come3 0.5s 1;
+}
+
+.signup h5{
+    margin-left: 50px;
+    font-size: 15px;
+    animation: gt1 0.5s 1;
+}
+
+@keyframes gt1{
+
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* .signup .go2,
+.signup .go3{
+    transform: translateY(-5px);
+    margin-left: 25px
+} */
+
+.signup .name{
+    display: block;
+}
+.signup .name.active{
+    display: none;
+}
+
+.signup .email{
+    display: none;
+}
+.signup .email.active{
+    display: block;
+}
+
+.signup .password{
+    display: none;
+}.signup .password.active{
+    display: block;
+}
+
+
+
+.comm{
+    position: fixed;
+    width: 1400px;
+    margin-left: -10px;
+    margin-top: -650px;
+    height: 700px;
+    display: none;
+    background-color: #00000057;
+}
+.comm.active{
+    display: block;
+}
+.comm img{
+    width: 100px;
+    margin-top: 250px;
+    margin-left: 600px;
+    animation: turn 0.9s infinite;
+}
+@keyframes turn{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 200px){ 
+.all{
+
+}
+.all nav{
+    margin-left: 0px;
+}
+.all nav .logo{
+    width: 120px;
+}
+.all nav .logo p{
+    font-size: 12px;
+    height: 30px;
+    width: 90px;
+}
+.all nav .nav-btn{
+    margin-top: -45px;
+    margin-left: 130px;
+}
+.all nav .nav-btn button{
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+
+.all .bod{
+    margin-left: 0px;
+}
+.all .bod img{
+    width: 185px;
+    height: 200px;
+}
+.all .bod h1{
+    margin-left: 5px;
+    font-size: 30px;
+}
+.all .bod p{
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+
+
+
+.signup{
+    margin-left: 0px;
+}
+.signup .head{
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+#login .head{
+    margin-left: 50px;
+}
+.signup p{
+    font-weight: 900px;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    :root{
+        --black:#000;
+        --white:#ffffff;
+        --lightgrey:#f1f1f1;
+        --darkblue:#0d102c;
+        --primarycolor:#3d51f2;
+        --secondarycolor:#5670ef;
+        --lightDark:#080A25;
+        --darkText:#8388B4;
+        --green: #5eff00;
+     }
+    
+    body{
+        font-family: "Poppins", sans-serif;
+        background-color: var(--darkblue);
+        color: white;
+    }
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    .nav-link{
+        font-size: 1rem;
+        width: 30%;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        white-space: nowrap;
+        transform: translateY(10px);
+    }
+    .nav-link a{
+        text-decoration: none;
+        color: var(--white);
+    }
+    .sociallinkContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+    
+    .sociallink{
+        margin-right: 1em;
+        cursor: pointer;
+    }
+    
+    
+    
+    @media screen and (min-width:800px) {
+      
+        .nav-l{
+             background-color: red;
+             width: 400px;
+             margin-top: -50px;
+             margin-left: 50rem;
+        }
+        .nav-link{
+              float: left;
+    
+              display: inline;
+        }
+        .navLogo,#barContainer,.sociallinkContainer{
+            display: block;
+        }
+    }
+    
+    
+    .anime{
+        margin-left: -70px;
+        position: fixed;
+    }
+    .anime div{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        border: 3px solid #ff9000;
+    }
+    
+    .goo1{
+        animation-name: goo1;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes goo1{
+    
+        0%{
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        50%{
+            border: 3px solid white;
+            margin-top: -80px;
+            margin-left: 800px;
+        }
+        100%{
+            margin-top: 30px;
+            margin-left: 1450px;
+        }
+    }
+    
+    
+    
+    .goo2{
+        animation-name: goo2;
+        animation-delay: 3s;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes goo2{
+    
+        0%{
+            /* border: 3px solid black; */
+            margin-top: 300px;
+            margin-left: 0px;
+        }
+        100%{
+            margin-top: 300px;
+            margin-left: 1450px;
+        }
+    }
+    
+    
+    
+    
+    
+    .goo3{
+        animation-name: goo3;
+        animation-delay: 3s;
+        animation-duration: 35s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes goo3{
+    
+        0%{
+            margin-top: 10px;
+            margin-left: 1450px;
+        }
+        100%{
+            /* border: 3px solid black; */
+            margin-top: 300px;
+            margin-left: 0px;
+                    
+        }
+    }
+    
+    
+    
+    .goo4{
+        animation-name: goo4;
+        animation-delay: 6s;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+    }
+    
+    .gooo4{
+        animation-name: goo4;
+        animation-delay: 6s;
+        animation-duration: 35s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes goo4{
+    
+        0%{
+            margin-top: 300px;
+            margin-left: 1450px;
+        }
+        100%{
+            border: 3px solid black;
+            margin-top: 0px;
+            margin-left: 0px;
+                    
+        }
+    }
+    
+    
+    
+    
+    .goo5{
+        animation-name: goo5;
+        /* animation-delay: 2s; */
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+    
+    .gooo1{
+        animation-name: goo3;
+        /* animation-delay: 2s; */
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes goo5{
+    
+        0%{
+            margin-top: 500px;
+            margin-left: 150px;
+        }
+        100%{
+            border: 3px solid #5f1ec9;
+            margin-top: -300px;
+            margin-left: 400px;
+                    
+        }
+    }
+    
+    
+    
+    .all{
+        overflow: hidden;
+        height: 620px;
+    }
+    .all nav{
+        background: none;
+        margin-left: 100px;
+    
+    }
+    .all nav .logo{
+        width: 600px;
+        transition: all 0.5s ease-in-out;
+        animation: come 0.5s 1;
+        overflow: hidden;
+    }
+    @keyframes come{
+    
+        0%{
+            margin-left: -300px;
+        }
+        100%{
+            margin-left: 0px;
+        }
+    }
+    .all nav .logo p{
+        font-weight: 600;
+        font-size: 50px;
+        width: 600px;
+        height: 60px;
+    }
+    
+    #bar{
+        margin-top: -100px;
+        margin-left: 1000px;
+    }
+    @keyframes come2{
+    
+        0%{
+            margin-left: 300px;
+        }
+        100%{
+            margin-left: 0px;
+        }
+    }
+    #bar button{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        animation: come2 0.5s 1;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+        background-color: var(--green);
+        transition: all 0.3s ease-in-out;
+    }
+    #bar button:hover{
+        background-color: yellowgreen;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @keyframes top{
+        0%{
+            margin-top: -100px;
+        }
+        100%{ 
+            margin-top: 30px;
+        }
+    }
+    
+    
+    .all .bod{
+        margin-top: 30px;
+        margin-left: 500px;
+        animation: top 0.5s 1;
+    }
+    .all .bod img{
+        width: 400px;
+        height: 300px;
+    }
+    .all .bod h1{
+        margin-left: 25px;
+        font-size: 60px;
+    }
+    .all .bod p{
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: 110px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .signup{
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 500px;
+        height: 1000px;
+    }
+    @keyframes gb1{
+    
+        0%{
+            transform: translateY(-60px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .signup .head{
+        font-weight: 700;
+        margin-left: 120px;
+        margin-top: -50px;
+    }
+    #login .head{
+        margin-left: 120px;
+    }
+    .signup p{
+        font-weight: 900px;
+        margin-left: 90px;
+        font-size: 30px;
+        animation: gb1 0.5s 1;
+    }
+    #login p{
+        margin-left: 40px;
+        font-size: 30px;
+        animation: gb1 0.5s 1;
+    }
+    .signup label{
+        font-size: 20px;
+        animation: come3 0.5s 1;
+    }
+    .signup input{
+        width: 300px;
+        height: 40px;
+        outline: none;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 13px;
+        border: none;
+        animation: come3 0.5s 1;
+        font-family: "poppins", sans-serif;
+    }
+    .signup select{
+        width: 445px;
+        height: 40px;
+        outline: none;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 13px;
+        border: none;
+        animation: come3 0.5s 1;
+        font-family: "poppins", sans-serif;
+    }
+    
+    @keyframes come3{
+    
+        0%{
+            margin-left: -200px;
+        }
+        100%{
+            margin-left: 0px;
+        }
+    }
+    .signup .backimg{
+        background-color: red;
+    }
+    .signup #arrow{
+        width: 30px;
+        margin-left: -100px;
+        background-color: rgba(0, 0, 0, 0.322);
+        padding: 5px;
+        border-radius: 20px;
+        position: fixed;
+        transform: translateY(-30px);
+        cursor: pointer;
+        animation: come4 0.5s 1;
+    }
+    @keyframes come4{
+    
+        0%{
+            margin-left: -300px;
+        }
+        100%{
+            margin-left: -100px;
+        }
+    }
+    
+    .signup button,
+    .signup section{
+        font-family: "poppins", sans-serif;
+        width: 315px;
+        height: 40px;
+        background-color: var(--green);
+        border: none;
+        font-size: 13px;
+        /* margin-left: -50px; */
+        /* transform: translateX(-50px); */
+        cursor: pointer;
+        outline: none;
+        font-weight: 700;
+        animation: come3 0.5s 1;
+    }
+    
+    .signup h5{
+        margin-left: 50px;
+        font-size: 15px;
+        animation: gt1 0.5s 1;
+    }
+    
+    .signup h5 a{
+        color: var(--green);
+    }
+    
+    @keyframes gt1{
+    
+        0%{
+            transform: translateY(60px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .signup .go2{
+        position: relative;
+    }
+    /* 
+    .signup .go3{
+        transform: translateY(-5px);
+        margin-left: 25px
+    } */
+    
+    .signup .name{
+        display: block;
+    }
+    .signup .name.active{
+        display: none;
+    }
+    
+    .signup .Phone{
+        display: none;
+    }
+    .signup .Phone.active{
+        display: block;
+    }
+    
+    .signup .password{
+        display: none;
+    }.signup .password.active{
+        display: block;
+    }
+    
+    
+    
+    .comm{
+        position: fixed;
+        width: 1400px;
+        margin-left: -10px;
+        margin-top: -650px;
+        height: 700px;
+        display: none;
+        background-color: #00000057;
+    }
+    .comm.active{
+        display: block;
+    }
+    .comm img{
+        width: 100px;
+        margin-top: 250px;
+        margin-left: 600px;
+        animation: turn 0.9s infinite;
+    }
+    @keyframes turn{
+        0%{
+            transform: rotateZ(0deg);
+        }
+        50%{
+            transform: rotateZ(180deg);
+        }
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 200px){ 
+    
+    .all nav{
+        margin-left: 0px;
+    }
+    .all nav .logo{
+        width: 120px;
+    }
+    .all nav .logo p{
+        font-size: 12px;
+        height: 30px;
+        width: 90px;
+    }
+    #bar{
+        margin-top: -45px;
+        margin-left: 130px;
+    }
+    #bar button{
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+        font-family: "poppins", sans-serif;
+    }
+    
+    
+    
+    
+    .all .bod{
+        margin-left: 0px;
+    }
+    .all .bod img{
+        width: 185px;
+        height: 200px;
+    }
+    .all .bod h1{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    .all .bod p{
+        font-weight: 400;
+        font-size: 11px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    
+    
+    .nav-l{
+        padding-top: 50px;
+        position: fixed;
+        background-color: var(--lightDark);
+        width: 170px;
+        padding-left: 30px;
+        margin-left: -240px;
+        margin-top: -70px;
+        height: 700px;
+        list-style: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-l.active{
+        margin-left: -20px;
+    }
+    .nav-l .logo .show{
+        font-size: 20px;
+    }
+    .nav-link a{
+        text-decoration: none;
+    }
+    .sociallinkContainer{
+        display: block;
+        margin-left: -10px;
+    }
+    #bar{
+        margin-top: -40px;
+        margin-left: 150px;
+        position: relative;
+        display: block;
+    }
+    #bar .fa-bars{
+        font-size: 40px;
+    }
+    
+    
+    .signup{
+        margin-left: 0px;
+    }
+    .signup .head{
+        font-weight: 700;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    #login .head{
+        margin-left: 50px;
+    }
+    .signup p{
+        font-weight: 900px;
+        margin-left: 20px;
+        font-size: 20px;
+        animation: gb1 0.5s 1;
+    }
+    #login p{
+        margin-left: 20px;
+        font-size: 20px;
+        animation: gb1 0.5s 1;
+    }
+    .signup label{
+        font-size: 15px;
+        animation: come3 0.5s 1;
+    }
+    .signup input{
+        width: 165px;
+        height: 30px;
+        outline: none;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 10px;
+        border: none;
+        animation: come3 0.5s 1;
+    }
+    .signup select{
+        width: 180px;
+    }
+    .signup .backimg{
+        position: fixed;
+    }
+    
+    .signup #arrow{
+        width: 15px;
+        margin-left: -0px;
+        background-color: rgb(255, 255, 255);
+        padding: 3px;
+        border-radius: 20px;
+        transform: translateY(-90px);
+        cursor: pointer;
+        animation: come4 0.1s 1;
+    }
+    
+    .signup button{
+        width: 180px;
+        height: 30px;
+        background-color: var(--green);
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-weight: 700;
+        font-size: 10px;
+        animation: come3 0.5s 1;
+    }
+    .signup h5{
+        margin-left: 20px;
+        font-size: 10px;
+        animation: gt1 0.5s 1;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .comm img{
+        width: 70px;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 250px){
+    
+        .all{
+            margin-left: 10px;
+        }
+        #bar{
+            margin-top: -45px;
+            margin-left: 170px;
+        }
+    
+    
+        .all .bod{
+            margin-left: 15px;
+        }
+    
+        .signup{
+            margin-left: 15px;
+        }
+        .signup #arrow{
+            margin-left: -30px;
+        }
+    
+    
+        .comm img{
+            margin-left: 100px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 300px){
+    
+        #bar{
+            margin-top: -45px;
+            margin-left: 220px;
+        }
+    
+    
+    
+        .all .bod img{
+            width: 230px;
+        }
+        .all .bod h1{
+            margin-left: 40px;
+        }
+        .all .bod p{
+            margin-left: 60px;
+        }
+    
+    
+    
+        .signup .head,
+        #login .head{
+            margin-left: 100px;
+        }
+    
+        .signup p{
+            margin-left: 60px;
+        }
+        #login p{
+            margin-left: 40px;
+        }
+    
+        .signup input{
+            width: 220px;
+        }
+        .signup select{
+            width: 245px;
+        }
+    
+        .signup button{
+            width: 235px;
+        }
+        .signup h5{
+            margin-left: 45px;
+        animation: gt1 0.5s 1;
+        }
+    
+    
+        .comm{
+            width: 1700px;
+            height: 1200px;
+        }
+        .comm img{
+            width: 70px;
+            margin-left: 140px;
+            /* margin-top: 400px; */
+        }
+    }
+    
+    
+    @media (min-width: 300px) and (min-height: 600px){
+    
+        @keyframes top{
+            0%{
+                margin-top: -100px;
+            }
+            100%{ 
+                margin-top: 100px;
+            }
+        }
+        .all .bod{
+            margin-top: 100px;
+        }
+    
+        .signup {
+            margin-top: 150px;
+        }
+        .comm{
+            width: 1700px;
+            height: 1200px;
+        }
+        .comm img{
+            margin-top: 300px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 350px){
+    
+    
+        #bar{
+            margin-top: -45px;
+            margin-left: 270px;
+        }
+        .all .bod{
+            margin-left: 40px;
+        }
+    
+        .signup{
+            margin-left: 40px;
+        }
+        .signup label{
+            font-size: 16px;
+        }
+        .signup input{
+            font-size: 13px;
+            height: 40px;
+        }
+    
+        .comm img{
+            margin-left: 150px;
+        }
+    
+        .signup h5{
+            margin-left: 60px;
+            animation: gt1 0.5s 1;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 400px){
+    
+        #bar{
+            margin-top: -45px;
+            margin-left: 310px;
+        }
+    
+        .all .bod img{
+            width: 280px;
+        }
+        .all .bod h1{
+            font-size: 35px;
+            margin-left: 50px;
+        }
+        .all .bod p{
+            margin-left: 85px;
+        }
+    
+    
+    
+        .signup{
+            margin-left: 30px;
+        }
+        .signup .head,
+        #login .head{
+            margin-left: 130px;
+        }
+    
+        .signup p{
+            margin-left: 70px;
+        }
+        #login p{
+            margin-left: 50px;
+        }
+        .signup input{
+            width: 280px;
+        }
+        .signup select{
+            width: 305px;
+        }
+    
+        .signup button{
+            width: 295px;
+        }
+        .signup h5{
+            margin-left: 85px;
+        animation: gt1 0.5s 1;
+        }
+    
+        .comm img{
+            margin-top: 200px;
+            width: 70px;
+            margin-left: 180px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* complete */
+    @media (min-width: 450px){
+    
+        .all nav .logo{
+            width: 300px;
+        }
+        .all nav .logo p{
+            width: 280px;
+            font-size: 20px;
+        }
+        .nav-l{
+            margin-top: -100px;
+        }
+        #bar{
+            margin-top: -55px;
+            margin-left: 340px;
+        }
+        #bar button{
+            width: 70px;
+            height: 30px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-top: 50px;
+            margin-left: 27px;
+        }
+        @keyframes top{
+            0%{
+                margin-top: -100px;
+            }
+            100%{ 
+                margin-top: 50px;
+            }
+        }
+        .all .bod img{
+            height: 300px;
+            width: 350px;
+        }
+        .all .bod h1{
+            font-size: 50px;
+        }
+        .all .bod p{
+            margin-top: -30px;
+            margin-left: 90px;
+            font-size: 17px;
+        }
+    
+    
+    
+    
+    
+    
+        .signup .head{
+            font-size: 30px;
+            margin-left: 150px;
+        }
+        #login .head{
+            margin-left: 150px;
+            font-size: 30px;
+        }
+        .signup p{
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #login p{
+            font-size: 25px;
+            margin-left: 70px;
+        }
+    
+        .signup label{
+            font-size: 20px;
+        }
+        .signup input{
+            width: 340px;
+        }
+        .signup select{
+            width: 365px;
+        }
+        .signup button{
+            width: 355px;
+            height: 40px;
+            font-size: 12px;
+        }
+        .signup h5{
+            margin-left: 70px;
+            font-size: 15px;
+        }
+        .comm img{
+            width: 70px;
+            margin-left: 200px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 500px){
+    
+        @keyframes come{
+    
+            0%{
+                margin-left: -300px;
+            }
+            100%{
+                margin-left: 30px;
+            }
+        }
+        .all nav .logo{
+            margin-left: 30px;
+        }
+    
+        #bar{
+            margin-left: 380px;
+        }
+    
+        .all .bod{
+            margin-left: 55px;
+        }
+    
+    
+    
+    
+    
+        .signup .head{
+            margin-left: 170px;
+        }
+        #login .head{
+            margin-left: 170px;
+        }
+        .signup p{
+            margin-left: 130px;
+        }
+        #login p{
+            margin-left: 100px;
+        }
+    
+        .signup input{
+            width: 375px;
+        }
+        .signup select{
+            width: 400px;
+        }
+        .signup button{
+            width: 390px;
+        }
+        .signup h5{
+            margin-left: 100px;
+        }
+    
+    
+    
+        .comm img{
+            width: 80px;
+            margin-left: 220px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 550px){
+    
+        #bar{
+            margin-left: 420px;
+        }
+        #bar button{
+            width: 100px;
+            height: 40px;
+            font-size: 13px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 50px;
+        }
+        .all .bod img{
+            width: 400px;
+        }
+        .all .bod h1{
+            font-size: 55px;
+            margin-left: 60px;
+        }
+        .all .bod p{
+            font-size: 20px;
+            margin-left: 100px;
+        }
+    
+        .signup{
+            margin-left: 60px;
+        }
+    
+        .comm img{
+            width: 90px;
+            margin-left: 250px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 600px){
+    
+        #bar{
+            margin-left: 470px;
+        }
+    
+    
+        .all .bod img{
+            width: 470px;
+        }
+        .all .bod h1{
+            margin-left: 90px;
+        }
+        .all .bod p{
+            margin-left: 130px;
+        }
+    
+        .signup{
+            margin-left: 90px;
+        }
+        .signup p{
+            margin-left: 110px;
+        }
+        .signup #arrow{
+            margin-left: -70px;
+            width: 20px;
+        }
+        .signup h5{
+            margin-left: 80px;
+        }
+    
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 650px){
+    
+        .all .bod{
+            margin-left: 70px;
+        }
+    
+        .signup .head{
+            margin-left: 200px;
+        }
+        /* #login .head{
+            /* width: 150px; 
+        } */
+        .signup p{
+            width: 250px;
+        }
+        #login p{
+            margin-left: 130px;
+            width: 250px;
+        }
+        .signup input{
+            width: 430px;
+        }
+        .signup select{
+            width: 445px;
+        }
+        .signup button{
+            width: 445px;
+        }
+        .signup h5{
+            margin-left: 120px;
+        }
+    
+    
+        .comm img{
+            margin-left: 300px;   
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 700px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 570px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 110px;
+        }
+        .signup{
+            margin-left: 130px;
+        }
+        .comm img{
+            margin-left: 350px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 750px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 610px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 140px;
+        }
+        .signup{
+            margin-left: 160px;
+        }
+        .comm img{
+            margin-left: 380px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 800px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 660px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 160px;
+        }
+        .signup{
+            margin-left: 180px;
+        }    .comm img{
+            margin-left: 380px;
+        }
+        #bar{
+            display: none;
+        }
+        .nav-l{
+            position: relative;
+            margin-left: 450px;
+            background: none;
+            width: 300px;
+            height: 50px;
+        }
+        .nav-l .logo .show,
+        .sociallink{
+            display: none;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 850px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 660px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 170px;
+        }
+        .signup{
+            margin-left: 200px;
+        }
+        .comm img{
+            margin-left: 420px;
+        }
+    
+        .nav-l{
+            margin-left: 500px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 900px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 700px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 190px;
+        }
+        .signup{
+            margin-left: 200px;
+        }
+    
+        .nav-l{
+            margin-left: 550px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 950px){
+    
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 760px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 220px;
+        }
+        .signup{
+            margin-left: 240px;
+        }
+    
+        .comm img{
+            margin-left: 470px;
+        }
+    
+        .nav-l{
+            margin-left: 600px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1000px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 760px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 220px;
+        }
+        .signup{
+            margin-left: 240px;
+        }
+    
+        .comm img{
+            margin-left: 490px;
+        }
+    
+        .nav-l{
+            margin-left: 600px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1050px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 800px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 250px;
+        }
+        .signup{
+            margin-left: 270px;
+        }
+    
+        .comm img{
+            margin-left: 510px;
+        }
+    
+        .nav-l{
+            margin-left: 650px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* @media (min-width: 1050px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 800px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 250px;
+        }
+        .signup{
+            margin-left: 270px;
+        }
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1100px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 840px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 250px;
+        }
+        .signup{
+            margin-left: 270px;
+        }
+    
+        .comm img{
+            margin-left: 510px;
+        }
+        .nav-l{
+            margin-left: 700px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* @media (min-width: 1100px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 890px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 250px;
+        }
+        .signup{
+            margin-left: 270px;
+        }
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1200px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 940px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 300px;
+        }
+        .signup{
+            margin-left: 330px;
+        }
+        .comm img{
+            margin-left: 550px;
+        }
+        .nav-l{
+            margin-left: 750px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1250px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 990px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 340px;
+        }
+        .signup{
+            margin-left: 360px;
+        }
+    
+        .comm img{
+            margin-left: 610px;
+        }
+        .nav-l{
+            margin-left: 800px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1300px){
+    
+        .all{
+            margin-left: 40px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 1050px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 370px;
+        }
+        .signup{
+            margin-left: 390px;
+        }
+        .comm img{
+            margin-left: 650px;
+        }
+    
+        .nav-l{
+            margin-left: 850px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1400px){
+    
+        .all{
+            margin-left: 90px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 1050px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 370px;
+        }
+        .signup{
+            margin-left: 390px;
+        }
+        .comm img{
+            margin-left: 710px;
+        }
+    
+    
+        .nav-l{
+            margin-left: 900px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    @media (min-width: 1500px){
+    
+        .all{
+            margin-left: 90px;
+        }
+        .all nav .logo p{
+            font-size: 30px;
+        }
+        #bar{
+            margin-left: 1160px;
+        }
+        #bar button{
+            width: 150px;
+            font-size: 15px;
+        }
+    
+    
+    
+        .all .bod{
+            margin-left: 400px;
+        }
+        .signup{
+            margin-left: 450px;
+        }
+        .comm img{
+            margin-left: 770px;
+        }
+    
+        .nav-l{
+            margin-left: 950px;
+        }
+    }
+    margin-left: 20px;
+    font-size: 20px;
+    animation: gb1 0.5s 1;
+}
+#login p{
+    margin-left: 20px;
+    font-size: 20px;
+    animation: gb1 0.5s 1;
+}
+.signup label{
+    font-size: 15px;
+    animation: come3 0.5s 1;
+}
+.signup input{
+    width: 165px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 10px;
+    border: none;
+    animation: come3 0.5s 1;
+}
+.signup .backimg{
+    background-color: red;
+    position: fixed;
+}
+
+.signup #arrow{
+    width: 15px;
+    margin-left: -0px;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 3px;
+    border-radius: 20px;
+    transform: translateY(-90px);
+    cursor: pointer;
+    animation: come4 0.1s 1;
+}
+
+.signup button{
+    width: 180px;
+    height: 30px;
+    background-color: var(--green);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    font-size: 10px;
+    animation: come3 0.5s 1;
+}
+.signup h5{
+    margin-left: 20px;
+    font-size: 10px;
+    animation: gt1 0.5s 1;
+}
+
+
+
+
+
+
+
+.comm img{
+    width: 70px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 250px){
+
+    .all{
+        margin-left: 10px;
+    }
+    .all nav .nav-btn{
+        margin-top: -45px;
+        margin-left: 170px;
+    }
+
+
+    .all .bod{
+        margin-left: 15px;
+    }
+
+    .signup{
+        margin-left: 15px;
+    }
+    .signup #arrow{
+        margin-left: -30px;
+    }
+
+
+    .comm img{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px){
+
+    .all nav .nav-btn{
+        margin-top: -45px;
+        margin-left: 220px;
+    }
+
+
+
+    .all .bod img{
+        width: 230px;
+    }
+    .all .bod h1{
+        margin-left: 40px;
+    }
+    .all .bod p{
+        margin-left: 60px;
+    }
+
+
+
+    .signup .head,
+    #login .head{
+        margin-left: 100px;
+    }
+
+    .signup p{
+        margin-left: 60px;
+    }
+    #login p{
+        margin-left: 40px;
+    }
+
+    .signup input{
+        width: 220px;
+    }
+
+    .signup button{
+        width: 235px;
+    }
+    .signup h5{
+        margin-left: 45px;
+    animation: gt1 0.5s 1;
+    }
+
+
+    .comm{
+        width: 1700px;
+        height: 1200px;
+    }
+    .comm img{
+        width: 70px;
+        margin-left: 140px;
+    }
+}
+
+
+@media (min-width: 300px) and (min-height: 600px){
+
+    @keyframes top{
+        0%{
+            margin-top: -100px;
+        }
+        100%{ 
+            margin-top: 100px;
+        }
+    }
+    .all .bod{
+        margin-top: 100px;
+    }
+
+    .signup {
+        margin-top: 150px;
+    }
+    .comm{
+        width: 1700px;
+        height: 1200px;
+    }
+    .comm img{
+        margin-top: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px){
+
+
+    .all nav .nav-btn{
+        margin-top: -45px;
+        margin-left: 270px;
+    }
+    .all .bod{
+        margin-left: 40px;
+    }
+
+    .signup{
+        margin-left: 40px;
+    }
+    .signup label{
+        font-size: 16px;
+    }
+    .signup input{
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .comm img{
+        margin-left: 150px;
+    }
+
+    .signup h5{
+        margin-left: 60px;
+        animation: gt1 0.5s 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 400px){
+
+    .all nav .nav-btn{
+        margin-top: -45px;
+        margin-left: 310px;
+    }
+
+    .all .bod img{
+        width: 280px;
+    }
+    .all .bod h1{
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .all .bod p{
+        margin-left: 85px;
+    }
+
+
+
+    .signup{
+        margin-left: 30px;
+    }
+    .signup .head,
+    #login .head{
+        margin-left: 130px;
+    }
+
+    .signup p{
+        margin-left: 70px;
+    }
+    #login p{
+        margin-left: 50px;
+    }
+    .signup input{
+        width: 280px;
+    }
+    .signup button{
+        width: 295px;
+    }
+    .signup h5{
+        margin-left: 85px;
+    animation: gt1 0.5s 1;
+    }
+
+    .comm img{
+        margin-top: 200px;
+        width: 70px;
+        margin-left: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* complete */
+@media (min-width: 450px){
+
+    .all nav .logo{
+        width: 300px;
+    }
+    .all nav .logo p{
+        width: 280px;
+        font-size: 20px;
+    }
+    .all nav .nav-btn{
+        margin-top: -55px;
+        margin-left: 340px;
+    }
+    .all nav .nav-btn button{
+        width: 70px;
+        height: 30px;
+    }
+
+
+
+    .all .bod{
+        margin-top: 50px;
+        margin-left: 27px;
+    }
+    @keyframes top{
+        0%{
+            margin-top: -100px;
+        }
+        100%{ 
+            margin-top: 50px;
+        }
+    }
+    .all .bod img{
+        height: 300px;
+        width: 350px;
+    }
+    .all .bod h1{
+        font-size: 50px;
+    }
+    .all .bod p{
+        margin-top: -30px;
+        margin-left: 90px;
+        font-size: 17px;
+    }
+
+
+
+
+
+
+    .signup .head{
+        font-size: 30px;
+        margin-left: 150px;
+    }
+    #login .head{
+        margin-left: 150px;
+        font-size: 30px;
+    }
+    .signup p{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    #login p{
+        font-size: 25px;
+        margin-left: 70px;
+    }
+
+    .signup label{
+        font-size: 20px;
+    }
+    .signup input{
+        width: 340px;
+    }
+    .signup button{
+        width: 355px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .signup h5{
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .comm img{
+        width: 70px;
+        margin-left: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 500px){
+
+    @keyframes come{
+
+        0%{
+            margin-left: -300px;
+        }
+        100%{
+            margin-left: 30px;
+        }
+    }
+    .all nav .logo{
+        margin-left: 30px;
+    }
+
+    .all nav .nav-btn{
+        margin-left: 380px;
+    }
+
+    .all .bod{
+        margin-left: 55px;
+    }
+
+
+
+
+
+    .signup .head{
+        margin-left: 170px;
+    }
+    #login .head{
+        margin-left: 170px;
+    }
+    .signup p{
+        margin-left: 130px;
+    }
+    #login p{
+        margin-left: 100px;
+    }
+
+    .signup input{
+        width: 375px;
+    }
+    .signup button{
+        width: 390px;
+    }
+    .signup h5{
+        margin-left: 100px;
+    }
+
+
+
+    .comm img{
+        width: 80px;
+        margin-left: 220px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 550px){
+
+    .all nav .nav-btn{
+        margin-left: 420px;
+    }
+    .all nav .nav-btn button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 50px;
+    }
+    .all .bod img{
+        width: 400px;
+    }
+    .all .bod h1{
+        font-size: 55px;
+        margin-left: 60px;
+    }
+    .all .bod p{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    .signup{
+        margin-left: 60px;
+    }
+
+    .comm img{
+        width: 90px;
+        margin-left: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+
+    .all nav .nav-btn{
+        margin-left: 470px;
+    }
+
+
+    .all .bod img{
+        width: 470px;
+    }
+    .all .bod h1{
+        margin-left: 90px;
+    }
+    .all .bod p{
+        margin-left: 130px;
+    }
+
+    .signup{
+        margin-left: 90px;
+    }
+    .signup p{
+        margin-left: 110px;
+    }
+    .signup #arrow{
+        margin-left: -70px;
+        width: 20px;
+    }
+    .signup h5{
+        margin-left: 80px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 650px){
+
+    .all .bod{
+        margin-left: 70px;
+    }
+
+    .signup .head{
+        margin-left: 200px;
+    }
+    #login .head{
+        /* width: 150px; */
+    }
+    .signup p{
+        width: 250px;
+    }
+    #login p{
+        margin-left: 130px;
+        width: 250px;
+    }
+    .signup input{
+        width: 430px;
+    }
+    .signup button{
+        width: 445px;
+    }
+    .signup h5{
+        margin-left: 120px;
+    }
+
+
+    .comm img{
+        margin-left: 300px;   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 570px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 110px;
+    }
+    .signup{
+        margin-left: 130px;
+    }
+    .comm img{
+        margin-left: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 750px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 610px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 140px;
+    }
+    .signup{
+        margin-left: 160px;
+    }
+    .comm img{
+        margin-left: 380px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 660px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 160px;
+    }
+    .signup{
+        margin-left: 180px;
+    }    .comm img{
+        margin-left: 380px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 850px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 660px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 170px;
+    }
+    .signup{
+        margin-left: 200px;
+    }
+    .comm img{
+        margin-left: 420px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 700px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 190px;
+    }
+    .signup{
+        margin-left: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 950px){
+
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 760px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 220px;
+    }
+    .signup{
+        margin-left: 240px;
+    }
+
+    .comm img{
+        margin-left: 470px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 760px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 220px;
+    }
+    .signup{
+        margin-left: 240px;
+    }
+
+    .comm img{
+        margin-left: 490px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1050px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 800px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 250px;
+    }
+    .signup{
+        margin-left: 270px;
+    }
+
+    .comm img{
+        margin-left: 510px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 1050px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 800px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 250px;
+    }
+    .signup{
+        margin-left: 270px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 840px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 250px;
+    }
+    .signup{
+        margin-left: 270px;
+    }
+
+    .comm img{
+        margin-left: 510px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 1100px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 890px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 250px;
+    }
+    .signup{
+        margin-left: 270px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 940px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 300px;
+    }
+    .signup{
+        margin-left: 330px;
+    }
+    .comm img{
+        margin-left: 550px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1250px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 990px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 340px;
+    }
+    .signup{
+        margin-left: 360px;
+    }
+
+    .comm img{
+        margin-left: 610px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1300px){
+
+    .all{
+        margin-left: 40px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 1050px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 370px;
+    }
+    .signup{
+        margin-left: 390px;
+    }
+    .comm img{
+        margin-left: 650px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+
+    .all{
+        margin-left: 90px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 1050px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 370px;
+    }
+    .signup{
+        margin-left: 390px;
+    }
+    .comm img{
+        margin-left: 710px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1500px){
+
+    .all{
+        margin-left: 90px;
+    }
+    .all nav .logo p{
+        font-size: 30px;
+    }
+    .all nav .nav-btn{
+        margin-left: 1160px;
+    }
+    .all nav .nav-btn button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+
+
+    .all .bod{
+        margin-left: 400px;
+    }
+    .signup{
+        margin-left: 450px;
+    }
+    .comm img{
+        margin-left: 770px;
+    }
+}

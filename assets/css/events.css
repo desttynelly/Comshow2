@@ -1,0 +1,189 @@
+.navbar{
+    margin-top: -200px;
+}
+.mininav{
+    width: 100%;
+    margin-top: 200px;
+}
+.mininav .nav{
+    width: 50%;
+    margin-left: 15%;
+}
+.mininav .nav ul{
+    display: flex;
+    list-style: none;
+}
+.mininav .nav ul li{
+    margin-left: 20px;
+}
+.mininav .nav ul li a{
+    text-decoration: underline;
+    transition: all 0.9s ease-in-out;
+}
+.mininav .nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid var(--yellow-dark);
+}
+
+.mininav .searchbar{
+    margin-top: -45px;
+    margin-left: 70%;
+}
+.mininav .searchbar input{
+    width: 260px;
+    height: 30px;
+    background: none;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.mininav .searchbar .fa-search{
+    /* width: 100px;
+    height: 100px; */
+    padding: 8px;
+    margin-left: -38px;
+    background-color: var(--yellow-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toposts{
+    width: 100%;
+    color: var(--white);
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Main posts take 2x space compared to ads */
+    gap: 20px; /* Space between rows and columns */
+}
+.toposts div{
+    float: left;
+}
+
+.toposts .mainpost {
+    /* display: inline-flex; */
+    width: 100%;
+}
+.toposts .mainpost .d1{
+    padding-top: 15px;
+    border: 1px solid var(--white);
+    width: 80%;
+    margin-left: 50px;
+}
+.toposts .mainpost .d1 .proimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.toposts .mainpost .d1 .proname{
+    margin-left: 130px;
+    margin-top: -50px;
+    font-size: 16px;
+}
+.toposts .mainpost .d1 .interactive{
+    margin-left: 130px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.stars.interactive .star {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ccc; /* Default unselected star color */
+    transition: color 0.3s;
+  }
+  
+  .stars.interactive .star:hover,
+  .stars.interactive .star:hover ~ .star {
+    color: #ffcc00; /* Highlight stars on hover */
+  }
+  
+  .stars.interactive .star.selected {
+    color: #ffcc00; /* Selected stars */
+  }
+  
+
+.toposts .mainpost .d1 .info{
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+.toposts .mainpost .d1 .info .infoi{
+    width: 100%;
+}
+.toposts .mainpost .d1 .info .lheaddt{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+  
+.mainpost, .adpost {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between posts */
+  }
+  
+
+
+.toposts .adpost .d2{
+    /* margin-left: 80%;
+    margin-top: -660px; */
+    width: 85%;
+    padding-top: 10px;
+    border: 1px solid var(--white);
+}
+.toposts .adpost .d2 .dimg{
+    width: 90%;
+    margin-left: 5%;
+}
+.toposts .adpost .d2 .lheadt{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.toposts .adpost .d2 ul{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.toposts .adpost .d2 ul li{
+    margin-right: 40px;
+}
+.toposts .adpost .d2 button{
+    align-items: center;
+    justify-items: center;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.toposts .adpost .go{
+    align-items: center;
+    justify-items: center;
+    margin-left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <title>Golden Pass</title>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link rel="icon" href="/images/Golden pass logo.png">
+    <title>Long Time</title>
+</head>
+<body>
+
+
+  <%- include('_header') %>
+
+   
+
+    <div class="signup" id="login">
+
+      <form action="http://localhost:3300/CS/verify/login" method="post">
+    
+        <div class="name">
+            <p class="head">Login</p>
+            <p>Input Login Details</p>
+
+            <label for="Username">Email</label> <br>
+            <input type="email" name="email" id="Username" placeholder="Brian224">  <br><br>
+
+            <label for="Password">Password</label> <br>
+            <input type="password" name="password" id="Password" placeholder="************" accesskey="rat">  <br><br>
+
+            <button type="submit"  class="goo">Login</button>
+
+          </form>
+
+        </div>
+
+
+
+        <div class="change">
+            <h5>Don't have an account? <a href="/signup">Signup</a></h5>
+        </div>
+    </div>
+
+    </div>
+
+    <%- include('_footer') %>
+
+
+    <div class="comm">
+        <div class="over"></div>
+        <img src="assets/globe-1-svgrepo-com (1).png" alt="">
+    </div>
+
+
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>AVG</th>
+            <th>Value</th>
+            <th>1h</th>
+            <th>24h</th>
+            <th>1m</th>
+          </tr>
+        </thead>
+        <tbody id="crypto-table">
+          <!-- Data will be populated here -->
+        </tbody>
+      </table>
+      
+      <script>
+        async function fetchCryptoData() {
+          const response = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin,ethereum,litecoin');
+          const data = await response.json();
+      
+          const tableBody = document.getElementById('crypto-table');
+          tableBody.innerHTML = data.map(coin => `
+            <tr>
+              <td>${coin.name}</td>
+              <td>${coin.current_price}</td>
+              <td>${coin.price_change_percentage_1h_in_currency || 'N/A'}</td>
+              <td>${coin.market_cap}</td>
+              <td>${coin.price_change_percentage_1h_in_currency}%</td>
+              <td>${coin.price_change_percentage_24h}%</td>
+              <td>${coin.price_change_percentage_7d}%</td>
+            </tr>
+          `).join('');
+        }
+      
+        fetchCryptoData();
+      </script>
+      
+
+
+
+    <script src="/js/log.js"></script>
+</body>
+</html>

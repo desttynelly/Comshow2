@@ -1,0 +1,741 @@
+
+
+:root{
+    --gold: ;
+    --yellow-dark: #ff9000;
+    --white: #fff;
+    --black: #000;
+    --dark: #020508;
+}
+
+.navbar{
+    margin-top: -250px;
+}
+.hero{
+    width: 100%;
+    color: var(--white);
+    margin-top: 150px;
+}
+.hero .text{
+    margin-top: 250px;
+    margin-left: 130px;
+}
+.hero .text h4{
+    font-size: 70px;
+    font-weight: 400;
+}
+.hero .text p{
+    margin-top: -100px;
+    font-size: 20px;
+    margin-left: 8%;
+}
+.hero .slideshow{
+    margin-top: -200px;
+    margin-left: 55%;
+    width: 40%;
+    height: 300px;
+    background-position: center;
+    background-size: 100% 100%;
+    animation: topslide 12s infinite;
+}
+@keyframes topslide{
+    15%{
+        background-image: url(/images/get\ ticket.png);
+    }
+    30%{
+        background-image: url(/images/event\ advert.png);
+    }
+    60%{
+        background-image: url(/images/Discounted.png);
+    }
+    75%{
+        background-image: url(/images/UPCOMING\ EVENTS.png);
+    }
+    95%{
+        background-image: url(/images/ticket1.jpg);
+    }
+    100%{
+        background-image: url(/images/get\ ticket.png);
+    }
+}
+
+
+
+
+.UpcomE{
+    margin-top: 250px;
+    color: var(--white);
+    width: 100%;
+}
+.UpcomE img{
+    width: 50%;
+}
+.UpcomE .img1{
+    display: none;
+}
+.UpcomE .img2{
+    margin-top: -250px;
+    margin-left: 45%;
+}
+.UpcomE .headdt{
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.UpcomE .boddyt{
+    width: 35%;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.UpcomE button{
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+.toposts{
+    width: 100%;
+    color: var(--white);
+    margin-top: 100px;
+}
+.toposts .headdt{
+    font-size: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+.toposts .twop {
+    /* display: inline-flex; */
+    width: 100%;
+}
+.toposts .twop .d1{
+    padding-top: 15px;
+    border: 1px solid var(--white);
+    width: 50%;
+}
+.toposts .twop .d1 .proimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.toposts .twop .d1 .proname{
+    margin-left: 130px;
+    margin-top: -50px;
+    font-size: 16px;
+}
+.toposts .twop .d1 .stars{
+    width: 150px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    background-color: var(--yellow-dark);
+}
+
+.toposts .twop .d1 .info{
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+.toposts .twop .d1 .info .infoi{
+    width: 100%;
+}
+.toposts .twop .d1 .info .lheaddt{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.toposts .twop .d2{
+    margin-left: 55%;
+    margin-top: -660px;
+    width: 35%;
+    padding-top: 10px;
+    border: 1px solid var(--white);
+    margin-bottom: 250px;
+}
+.toposts .twop .d2 .dimg{
+    width: 90%;
+    margin-left: 5%;
+}
+.toposts .twop .d2 .lheadt{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.toposts .twop .d2 ul{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.toposts .twop .d2 ul li{
+    margin-right: 40px;
+}
+.toposts .twop .d2 button{
+    align-items: center;
+    justify-items: center;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.toposts .twop .go{
+    align-items: center;
+    justify-items: center;
+    margin-left: 45%;
+}
+
+
+
+.contact{
+    margin-top: 100px;
+    width: 100%;
+}
+.contact img{
+    width: 500px;
+    margin-left: 150px;
+}
+.contact .conmove{
+    margin-left: 50%;
+    margin-top: -300px;
+}
+.contact .conmove p{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500px;
+}
+.contact .conmove input,
+.contact .conmove textarea{
+    outline: none;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding-left: 10px;
+    background-color: #ffffff21;
+}
+.contact .conmove #fn,
+.contact .conmove #ln{
+    width: 250px;
+    height: 30px;
+}
+.contact .conmove #em{
+    width: 518px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact .conmove #con{
+    width: 518px;
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 200px){
+
+    .navbar{
+        margin-top: -150px;
+    }
+    .hero{
+        width: 100%;
+        color: var(--white);
+        margin-top: 150px;
+    }
+
+    .hero .text{
+        width: 90%;
+        margin-top: 0px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .hero .text h4{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .hero .text p{
+        margin-top: -40px;
+        font-size: 13px;
+        margin-left: 0%;
+    }
+    .hero .slideshow{
+        margin-top: -00px;
+        margin-left: 5%;
+        width: 90%;
+        height: 200px;
+        background-position: center;
+        background-size: 100% 100%;
+        animation: topslide 12s infinite;
+    }
+
+
+
+
+
+
+
+
+
+    .UpcomE{
+        margin-top: 250px;
+        color: var(--white);
+        width: 100%;
+    }
+    .UpcomE img{
+        width: 50%;
+    }
+    .UpcomE .img2{
+        display: none;
+    }
+    .UpcomE .img1{
+        display: block;
+        margin-top: -0px;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .UpcomE .headdt{
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .UpcomE .boddyt{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 13px;
+    }
+    .UpcomE button{
+        margin-left: 6%;
+    }
+
+
+    .toposts{
+        width: 100%;
+        color: var(--white);
+        margin-top: 100px;
+        display: none;
+    }
+
+
+    .contact{
+        align-self: center;
+        justify-self: center;
+        margin-top: 100px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .contact img{
+        width: 80%;
+        margin-left: 10px;
+    }
+    .contact .conmove{
+        margin-left: 3%;
+        margin-top: -00px;
+    }
+    .contact .conmove #fn,
+    .contact .conmove #ln{
+        width: 90%;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    .contact .conmove #em{
+        width: 90%;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact .conmove #con{
+        width: 90%;
+        height: 50px;
+    
+    }
+    .contact .conmove input,
+    .contact .conmove textarea{
+        outline: none;
+        border: 1px solid var(--white);
+        color: var(--white);
+        padding-left: 10px;
+        background-color: #ffffff21;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px){
+
+    .evert{
+        padding: 0px 10%;
+    }
+    .hero .text h4{
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 500px){
+
+    .evert{
+        padding: 0px 15%;
+    }
+    .hero .text h4{
+        font-size: 42px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px){
+
+
+    .navbar{
+        margin-top: -250px;
+    }
+    .evert{
+        padding: 0px;
+    }
+    .hero{
+        margin-left: 0px;
+        width: 100%;
+        color: var(--white);
+        margin-top: 150px;
+    }
+    .hero .text{
+        margin-top: 250px;
+        margin-left: 30px;
+        text-align: start;
+    }
+    .hero .text h4{
+        font-size: 70px;
+        font-weight: 400;
+    }
+    .hero .text p{
+        margin-top: -100px;
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .hero .slideshow{
+        margin-top: -200px;
+        margin-left: 55%;
+        width: 40%;
+        height: 300px;
+        background-position: center;
+        background-size: 100% 100%;
+        animation: topslide 12s infinite;
+    }
+    @keyframes topslide{
+        15%{
+            background-image: url(/images/get\ ticket.png);
+        }
+        30%{
+            background-image: url(/images/event\ advert.png);
+        }
+        60%{
+            background-image: url(/images/Discounted.png);
+        }
+        75%{
+            background-image: url(/images/UPCOMING\ EVENTS.png);
+        }
+        95%{
+            background-image: url(/images/ticket1.jpg);
+        }
+        100%{
+            background-image: url(/images/get\ ticket.png);
+        }
+    }
+    
+    
+    
+    
+    .UpcomE{
+        margin-top: 250px;
+        color: var(--white);
+        width: 100%;
+    }
+    .UpcomE img{
+        width: 50%;
+    }
+    .UpcomE .img1{
+        display: none;
+    }
+    .UpcomE .img2{
+        display: block;
+        margin-top: -250px;
+        margin-left: 45%;
+    }
+    .UpcomE .headdt{
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .UpcomE .boddyt{
+        width: 35%;
+        margin-left: 50px;
+        font-size: 16px;
+    }
+    .UpcomE button{
+        margin-left: 150px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .toposts{
+        display: block;
+        width: 100%;
+        color: var(--white);
+        margin-top: 100px;
+        padding-left: 5%;
+    }
+    .toposts .headdt{
+        font-size: 40px;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .toposts .twop {
+        /* display: inline-flex; */
+        width: 100%;
+    }
+    .toposts .twop .d1{
+        padding-top: 15px;
+        border: 1px solid var(--white);
+        width: 50%;
+    }
+    .toposts .twop .d1 .proimg{
+        width: 50px;
+        height: 50px;
+        margin-left: 50px;
+        border-radius: 50px;
+    }
+    .toposts .twop .d1 .proname{
+        margin-left: 130px;
+        margin-top: -50px;
+        font-size: 16px;
+    }
+    .toposts .twop .d1 .stars{
+        width: 150px;
+        height: 20px;
+        margin-top: -20px;
+        margin-left: 130px;
+        margin-bottom: 50px;
+        background-color: var(--yellow-dark);
+    }
+    
+    .toposts .twop .d1 .info{
+        padding: 0px 100px;
+        margin-bottom: 50px;
+    }
+    .toposts .twop .d1 .info .infoi{
+        width: 100%;
+    }
+    .toposts .twop .d1 .info .lheaddt{
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+    }
+    .toposts .twop .d1 button{
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .toposts .twop .d2{
+        margin-left: 55%;
+        margin-top: -660px;
+        width: 35%;
+        padding-top: 10px;
+        border: 1px solid var(--white);
+        margin-bottom: 250px;
+    }
+    .toposts .twop .d2 .dimg{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .toposts .twop .d2 .lheadt{
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+    }
+    .toposts .twop .d2 ul{
+        list-style: none;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    .toposts .twop .d2 ul li{
+        margin-right: 40px;
+    }
+    .toposts .twop .d2 button{
+        align-items: center;
+        justify-items: center;
+        margin-left: 35%;
+        margin-bottom: 20px;
+    }
+    
+    .toposts .twop .go{
+        align-items: center;
+        justify-items: center;
+        margin-left: 45%;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .contact{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .contact img{
+        width: 500px;
+        margin-left: 40px;
+    }
+    .contact .conmove{
+        margin-left: 50%;
+        margin-top: -300px;
+    }
+    .contact .conmove p{
+        color: var(--white);
+        font-size: 30px;
+        font-weight: 500px;
+    }
+    .contact .conmove input,
+    .contact .conmove textarea{
+        outline: none;
+        border: 1px solid var(--white);
+        color: var(--white);
+        padding-left: 10px;
+        background-color: #ffffff21;
+    }
+    .contact .conmove #fn,
+    .contact .conmove #ln{
+        width: 400px;
+        height: 30px;
+    }
+    .contact .conmove #em{
+        width: 400px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact .conmove #con{
+        width: 400px;
+        height: 50px;
+    
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px){
+
+    .toposts .twop .go{
+        align-items: center;
+        justify-items: center;
+        margin-left: 45%;
+        margin-top: 0px;
+    }
+
+    .contact .conmove{
+        width: 45%;
+    }
+    .contact .conmove #fn,
+    .contact .conmove #ln{
+        width: 450px;
+        height: 30px;
+    }
+    .contact .conmove #em{
+        width: 450px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact .conmove #con{
+        width: 450px;
+        height: 50px;
+    
+    }
+
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link rel="icon" href="/css/Logo.png">
+    <title>Golden Pass</title>
+    <link rel="icon" href="/images/Golden pass logo.png">
+</head>
+<body>
+
+
+    <%- include('_header') %>
+
+   
+    <form action="http://localhost:3300/CS/verify/signup" method="post">
+
+    <div class="signup">
+    
+        <div class="name">
+            
+            
+
+            <p class="head">Signup</p>
+            <p>Input Name</p>
+
+            
+            <label for="Fullname">Fullname</label> <br>
+            <input type="text" name="fullname" id="fullname" placeholder="Jude Brian">  <br><br>
+
+
+            <label for="Username">Username</label> <br>
+            <input type="text" name="username" id="Username" placeholder="Brian224">  <br><br>
+
+
+            <button   class="go">Continue</button>
+
+        
+        </div>
+   
+
+
+        <div class="email">
+            <p>Enter Email</p>
+
+           
+            <label for="Email">Email</label> <br>
+            <input type="text" name="email" id="Email" placeholder="judebrian@gmail.com">  <br><br>
+
+            <div class="backimg">
+            <img src="assets/arrow-sm-left-svgrepo-com normal.png" alt="" class="back" id="arrow">
+        </div>
+
+            <button class="go2">Continue</button>
+
+      
+        </div>
+
+
+        <div class="password">
+            <p>Enter Password</p>
+
+        
+           
+            <label for="Password">Password</label> <br>
+            <input type="password" name="password" id="Password" placeholder="************" accesskey="rat" >  <br><br>
+
+            <div class="backimg">
+            <img src="assets/arrow-sm-left-svgrepo-com normal.png" alt="" class="back2" id="arrow">
+        </div>
+            <button type="submit" class="go3">Signup</button>
+     
+        </form>
+        </div>
+
+        <div class="change">
+            <h5>Already have an account? <a href="/login">Login</a></h5>
+        </div>
+    </div>
+
+</div>
+
+
+<%- include('_footer') %>
+
+
+<div class="comm">
+    <div class="over"></div>
+   
+    <img src="assets/globe-1-svgrepo-com (1).png" alt="">
+
+</div>
+
+    <!--  <form action="none">
+
+        <label for="Fullname">Fullname</label> <br>
+            <input type="text" name="name" id="fullname" placeholder="Zainab Kehinde" disabled>  <br><br>
+
+
+            <label for="Username">Username</label> <br>
+            <input type="text" name="Username" id="Username" placeholder="Kehinde224" disabled>  <br><br>
+
+            <label for="Email">Email</label> <br>
+            <input type="text" name="Email" id="Email" placeholder="ZainabKehinde13@gmail.com" disabled>  <br><br>
+
+
+            <label for="Phone Number">Phone Number</label> <br>
+            <input type="text" name="number" id="Phone-number" placeholder="08034526543" disabled>  <br><br>
+
+
+            <label for="Account Number">Account Number</label> <br>
+            <input type="text" name="Account-number" id="Account-number" placeholder="0948737322" disabled>  <br><br>
+
+
+            <label for="Sponsor's ID">Sponsor's ID</label> <br>
+            <input type="text" name="Sponsor's ID" id="Sponsor's-ID" placeholder="ggdgdgdgdgdgd" disabled>  <br><br>
+
+
+            <label for="Sponsor's Phone Number">Sponsor's Phone Number</label> <br>
+            <input type="text" name="Sponsor's Phone Number" id="Sponsor's-number" placeholder="93736253746" disabled>  <br><br>
+
+
+            <label for="Password">Password</label> <br>
+            <input type="text" name="Password" id="Password" placeholder="************" disabled>  <br><br>
+
+
+            <label for="Transaction Password">Transaction Password</label> <br>
+            <input type="text" name="Transaction-Password" id="Transaction-Password" placeholder="*************" disabled>  <br><br>
+
+    </form> -->
+
+    <script src="/js/sign.js"></script>
+
+   
+    
+    
+    
+</body>
+</html>
