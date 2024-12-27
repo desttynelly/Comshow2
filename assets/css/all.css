@@ -86,10 +86,25 @@ button{
 /* hamburger */
 .ham{
     display: none;
-    margin-left: 0px;
+    margin-left: 80%;
     width: 50px;
     padding-top: 0px;
-    margin-top: -0px;
+    margin-top: -30px;
+}
+.ham i{
+    font-size: 20px;
+}
+.ham #open{
+    display: block;
+}
+.ham #open.active{
+    display: none;
+}
+.ham #closee{
+    display: none;
+}
+.ham #closee.active{
+    display: block;
 }
 
 
@@ -191,6 +206,11 @@ button{
 
 
 @media (min-width: 200px){
+
+    .navbar{
+        background-color: #ff9000;
+        height: 50px;
+    }
     
     .navbar .logo{
         margin-left: 30px;
@@ -200,11 +220,19 @@ button{
     }
 
     .navbar .navlinks{
-        margin-top: -0px;
-        justify-items: center;
-        align-items: center;
-        display: none;
-        margin-left: 0%;
+        margin-top: 30px;
+        justify-items: flex-start;
+        align-items: flex-start;
+        display: block;
+        margin-left: -230px;
+        padding-left: 20px;
+        width: 200px;
+        height: 100vh;
+        background-image: linear-gradient(to right, #040F1A 40%, #050c13 90%);
+        transition: all 0.3s ease-in-out;
+    }
+    .navbar .navlinks.active{
+        margin-left: -0px;
     }
     .navbar .navlinks ul{
         list-style: none;
@@ -226,6 +254,9 @@ button{
     }
 
 
+    .ham{
+        display: block;
+    }
 
 
 
@@ -436,6 +467,49 @@ button{
 
 @media (min-width: 1000px){
 
+    /* body{
+        width: 100%;
+        overflow-x: hidden;
+    } */
+    .navbar{
+        background-image: linear-gradient(to right, #040F1A 10%, #020508 90%);
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .logo{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .navbar .logo img{
+        width: 100px;
+    }
+    .navbar .navlinks{
+        margin-top: -60px;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        margin-left: 35%;
+        width: 60%;
+    }
+    .navbar .navlinks ul{
+        list-style: none;
+        display: flex;
+        margin-right: 30px;
+    }
+    .navbar .navlinks ul li{
+        margin-left: 20px;
+    }
+    .navbar .navlinks .two-btn button{
+        border: 2px solid var(--yellow-dark);
+        background: none;
+        color: var(--white);
+        border-radius: 40px;
+    }
+
+    .ham{
+        display: none;
+    }
+
     .footer .logo  img{
         width: 100px;
     }
@@ -461,5 +535,4 @@ button{
         margin-top: -190px;
         margin-left: 10%;
     }
-    /* 09060737411 */
 }
