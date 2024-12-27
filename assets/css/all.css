@@ -273,6 +273,7 @@ button{
         justify-self: center;
     }
     .footer .last p{
+        text-align: center;
         font-size: 13px;
     }
 }
@@ -308,8 +309,7 @@ button{
         margin-left: 0px;
     }
     .footer .last p{
-        align-self: center;
-        justify-self: center;
+        text-align: center;
         font-size: 13px;
     }
 }
